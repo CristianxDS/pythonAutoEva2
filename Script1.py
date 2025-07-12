@@ -14,7 +14,7 @@ driver.execute_script("arguments[0].click();", registro)
 time.sleep(3)
 
 usuario = "CristhiamSabandoITSQMET"
-clave = "mi_contrasena_segura"
+clave = "Contrania1234"
 
 usuario_reg = driver.find_element(By.XPATH, '//*[@id="sign-username"]')
 clave_reg = driver.find_element(By.XPATH, '//*[@id="sign-password"]')
